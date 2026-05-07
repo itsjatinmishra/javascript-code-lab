@@ -18,8 +18,8 @@ if (n <= 1) {
   }
 }
 
-if (isPrime) {
-  console.log("The number you have entered is prime!");
-} else {
-  console.log("The number you have entered is not prime!");
-}
+console.log(
+  isPrime
+    ? "The number you have entered is prime!"
+    : "The number you have entered is not prime!",
+);
